@@ -1,0 +1,31 @@
+{
+  "name": "React-Webpack-Typescript-Archetype",
+  "version": "1.0.0",
+  "description": "React-Webpack-Typescript-Archetype",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "cd dist && live-server"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Fabian Cano",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.0.5",
+    "@types/webpack": "4.1.4",
+    "html-webpack-plugin": "^4.3.0",
+    "live-server": "^1.2.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.4.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
