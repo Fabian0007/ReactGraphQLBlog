@@ -1,6 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Blog from './components/Blog';
 
 export default function App()
 {
-    return <h1>Hello, world!</h1>
+    return <Blog />
 }
